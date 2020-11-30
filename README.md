@@ -2,6 +2,8 @@
 
 # kotlin-koans-edu
 
+Solved in order to refresh Kotlin syntax.
+
 Kotlin Koans are a series of exercises to get you familiar with the Kotlin Syntax.
 Each exercise is created as a failing unit test and your job is to make it pass.
 You can work with Kotlin Koans in one of the following ways:
@@ -14,4 +16,4 @@ and [choosing Kotlin Koans course](https://www.jetbrains.com/help/education/lear
 
 You don't need this project if you want to solve the tasks. Install the educational plugin or do it online.
 This project contains the task content, so if you want to contribute any changes to the existing tasks or new tasks, please submit new pull request.
-# kotlin-koans
+
