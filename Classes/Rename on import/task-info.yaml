@@ -14,7 +14,7 @@ files:
       offset: 0
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       import kotlin.random.Random as KRandom
       import java.util.Random as JRandom
@@ -26,7 +26,7 @@ files:
       offset: 144
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: KRandom.nextInt(2) +
   - offset: 223
     length: 22
@@ -36,7 +36,7 @@ files:
       offset: 210
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: JRandom().nextInt(2) +
   text: |-
     // import kotlin.random.Random
@@ -66,5 +66,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 30 Nov 2020 21:51:40 UTC
 record: -1
