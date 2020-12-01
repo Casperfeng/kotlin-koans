@@ -4,15 +4,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 134
-    length: 6
+  - offset: 132
+    length: 142
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 134
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       customers.filter {
           val (delivered, undelivered) = it.orders.partition { it.isDelivered }
@@ -126,5 +126,8 @@ files:
             Tokyo to listOf(asuka)
     ).mapValues { it.value.map { name -> customers[name] } }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 01 Dec 2020 23:47:05 UTC
 record: -1
