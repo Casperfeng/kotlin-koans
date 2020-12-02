@@ -12,7 +12,7 @@ files:
       offset: 302
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: return timeInMillis!!.toDate()
   - offset: 427
     length: 31
@@ -22,7 +22,7 @@ files:
       offset: 403
     initialized_from_dependency: false
     selected: false
-    status: Failed
+    status: Solved
     encrypted_possible_answer: timeInMillis = value.toMillis()
   text: |+
     import kotlin.properties.ReadWriteProperty
@@ -83,8 +83,8 @@ files:
         }
     }
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: An operation is not implemented.
-  time: Wed, 02 Dec 2020 22:07:00 UTC
+  message: Congratulations!
+  time: Wed, 02 Dec 2020 22:07:42 UTC
 record: -1
