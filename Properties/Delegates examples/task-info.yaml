@@ -5,14 +5,14 @@ files:
   visible: true
   placeholders:
   - offset: 63
-    length: 18
+    length: 29
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 75
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: lazy(initializer)
   text: |+
     class LazyProperty(val initializer: () -> Int) {
@@ -48,5 +48,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 02 Dec 2020 11:15:52 UTC
 record: -1
